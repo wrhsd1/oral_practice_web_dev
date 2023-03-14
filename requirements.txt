@@ -1,4 +1,4 @@
-openai==0.27.0
+openai==0.27.1
 av==9.2.0
 numpy==1.23.0
 pydub==0.25.1
