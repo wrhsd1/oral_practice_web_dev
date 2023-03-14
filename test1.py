@@ -49,7 +49,7 @@ def synthesize_to_speaker(text,lang,azureapi):
 	#Find your key and resource region under the 'Keys and Endpoint' tab in your Speech resource in Azure Portal
 	#Remember to delete the brackets <> when pasting your key and region!
     lang=lang_convertor(lang)
-    speech_config = speechsdk.SpeechConfig(subscription=azureapi, region="francecentral")
+    speech_config = speechsdk.SpeechConfig(subscription=azureapi, region="eastasia")
     speech_config.speech_synthesis_language = lang
     #In this sample we are using the default speaker 
     #Learn how to customize your speaker using SSML in Azure Cognitive Services Speech documentation
